@@ -1,0 +1,11 @@
+name: app
+app: buildspace-solana-demo
+component: website
+org: gjgdserverless
+
+inputs:
+  domain: buildspace-solana-demo.gjgd.xyz
+  src:
+    src: ./src
+    hook: npm run build
+    dist: ./build
